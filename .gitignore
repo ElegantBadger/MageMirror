@@ -1,4 +1,6 @@
 *~
 *pyc
 *pyo
+bundle.js
 webpack-stats.json
+node_modules/
