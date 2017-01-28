@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a3de28f15b0ab5770299"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5f2ec13c86759e7103f8"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -45558,7 +45558,7 @@
 	exports.push([module.id, "@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);", ""]);
 
 	// module
-	exports.push([module.id, "body {\n  padding: 0px !important;\n  margin: 0;\n  font-family: \"Open Sans\", Arial;\n  background-color: #000;\n  color: #fff !important; }\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  font-family: \"Open Sans\", Arial;\n  color: #00b4ff; }\n\na.secondary_link {\n  color: #08121F;\n  opacity: 0.7; }\n\nh1, h2, h3, h4 {\n  font-family: \"Roboto\", Arial; }\n\n.root {\n  position: relative;\n  width: 100%;\n  height: 100%; }\n\n.overlay {\n  padding: 20px;\n  width: 100vw;\n  height: 100vh;\n  position: fixed;\n  top: 0;\n  left: 0; }\n\n.ion-navicon {\n  cursor: pointer; }\n", ""]);
+	exports.push([module.id, "body {\n  padding: 0px !important;\n  margin: 0 !important;\n  font-family: \"Open Sans\", Arial;\n  background-color: #000;\n  color: #fff !important; }\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  font-family: \"Open Sans\", Arial;\n  color: #00b4ff; }\n\na.secondary_link {\n  color: #08121F;\n  opacity: 0.7; }\n\nh1, h2, h3, h4 {\n  font-family: \"Roboto\", Arial; }\n\n.root {\n  position: relative;\n  width: 100%;\n  height: 100%; }\n\n.overlay {\n  padding: 20px;\n  width: 100vw;\n  height: 100vh;\n  position: fixed;\n  top: 0;\n  left: 0; }\n\n.ion-navicon {\n  cursor: pointer; }\n", ""]);
 
 	// exports
 
