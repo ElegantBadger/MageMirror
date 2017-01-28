@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: __dirname + '/static/bundles/',
         filename: "bundle.js",
-        publicPath: 'http://localhost:3000/static/bundles/',
+        publicPath: '/static/bundles/',
     },
     module: {
         loaders: [
@@ -18,11 +18,11 @@ module.exports = {
 	          limit: 10,
 	          mimetype: 'application/font-woff'
 	      }},
-            { test: /\.jsx$/, loader: 'babel', query: {presets: ['react', 'es2015']}, exclude: /node_modules/ },
+            { test: /\.jsx$/, loader: 'babel', query: {presets: ['es2015', 'stage-0', 'react']}, exclude: /node_modules/ },
             { test: /\.js$/, loaders: ['babel'], exclude: /node_modules/ },
             { test: /\.css$/, loader: "style-loader!css-loader"},
             { test: /\.scss$/, loaders: ["style", "css", "sass"]},
-	    { test: /\.(png|jpg)$/, loader: 'url-loader?limit=1' },
+	    { test: /\.(png|jpg|gif)$/, loader: 'url-loader?limit=1' },
 	    { test: /\.json$/, loader: 'json-loader' }
         ]
     },

@@ -1,12 +1,13 @@
 import React, { Component, PropTypes } from 'react'
 import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router';
+import Gallery from './Gallery';
 
 require("../../css/main.scss");
 
 class App extends React.Component {
     render(){
 	return <div>
-	  <marquee>Your muffins are my muffins</marquee>
+
 	  {this.props.children}
 	</div>
     }
@@ -14,8 +15,12 @@ class App extends React.Component {
 
 class Home extends React.Component {
     render(){
-	return <div>
-	<h2>You are home now my sweet and beautiful little manatee</h2>
+	return <div className="root">
+	<div className="overlay">
+	<marquee>Your muffins are my muffins</marquee>	
+	<h2>You are home now my sweet and beautiful littles manatee</h2>
+	</div>
+	<Gallery />
 	</div>
     }
 }
