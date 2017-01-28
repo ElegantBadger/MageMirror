@@ -2,7 +2,7 @@
 @import 'fonts';
 
 body {
-  padding: 0px;
+  padding: 0px !important;
   margin: 0;
   font-family: $primary_body_font;
   background-color: $body_background_color;

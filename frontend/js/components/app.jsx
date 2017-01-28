@@ -16,7 +16,7 @@ class App extends React.Component {
 class Home extends React.Component {
     render(){
 	return <div className="root">
-	<div className="overlay" style={{"background": "red"}}>
+	<div className="overlay">
 	<marquee>Your muffins are my muffins</marquee>	
 	<h2>You are home now my sweet and beautiful little manatee</h2>
 	</div>
