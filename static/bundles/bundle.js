@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "81d201f2871f50704654"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e197ac2567bbc159b141"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -30071,7 +30071,7 @@
 													{ className: 'root' },
 													_react2.default.createElement(
 																'div',
-																{ className: 'overlay' },
+																{ className: 'overlay', style: { "background": "red" } },
 																_react2.default.createElement(
 																			'marquee',
 																			null,
@@ -30080,7 +30080,7 @@
 																_react2.default.createElement(
 																			'h2',
 																			null,
-																			'You are home now my sweet and beautiful littles manatee'
+																			'You are home now my sweet and beautiful little manatee'
 																)
 													),
 													_react2.default.createElement(_Gallery2.default, null)
@@ -35237,7 +35237,7 @@
 	         return _react2.default.createElement(
 	            'div',
 	            { className: this.uid },
-	            _react2.default.createElement('img', { style: { "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity, "-webkit-transform": "translate3D(-50%, -50%, 10px)" }, src: this.state.current_image })
+	            _react2.default.createElement('img', { style: { "min-width": "500px", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity, "-webkit-transform": "translate3D(-50%, -50%, 10px)" }, src: this.state.current_image })
 	         );
 	      }
 	   }]);
