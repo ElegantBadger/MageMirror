@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3ca498c55b3f63e26212"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "81d201f2871f50704654"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -35222,7 +35222,7 @@
 	      value: function swap() {
 	         this.setState({
 	            last: this.state.last + 1,
-	            opacity: Math.random(),
+	            opacity: 1.0, //Math.random(),
 	            current_image: resources[(this.state.last + 1) % resources.length]
 	         });
 	      }

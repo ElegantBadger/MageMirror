@@ -23,7 +23,7 @@ export default class Gallery extends React.Component {
     swap(){
 	this.setState({
 	    last: this.state.last + 1,
-	    opacity: Math.random(),
+	    opacity: 1.0, //Math.random(),
 	    current_image: resources[(this.state.last + 1) % (resources.length)]
 	});
     }
