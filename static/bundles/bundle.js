@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d2f1e03a94aab8c94864"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "02ebb096bb6168d9b4a0"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -30073,7 +30073,7 @@
 	            _react2.default.createElement(
 	               'h2',
 	               null,
-	               'You are home now my sweet little manatee'
+	               'You are home now my sweet and beautiful little manatee'
 	            )
 	         );
 	      }
@@ -35182,7 +35182,7 @@
 	exports.push([module.id, "@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);", ""]);
 
 	// module
-	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  font-family: \"Open Sans\", Arial;\n  color: #000 !important; }\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  font-family: \"Open Sans\", Arial;\n  color: #00b4ff; }\n\na.secondary_link {\n  color: #08121F;\n  opacity: 0.7; }\n\nh1, h2, h3, h4 {\n  font-family: \"Roboto\", Arial; }\n\n.ion-navicon {\n  cursor: pointer; }\n", ""]);
+	exports.push([module.id, "body {\n  padding: 20px;\n  margin: 0;\n  font-family: \"Open Sans\", Arial;\n  background-color: #000;\n  color: #fff !important; }\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  font-family: \"Open Sans\", Arial;\n  color: #00b4ff; }\n\na.secondary_link {\n  color: #08121F;\n  opacity: 0.7; }\n\nh1, h2, h3, h4 {\n  font-family: \"Roboto\", Arial; }\n\n.ion-navicon {\n  cursor: pointer; }\n", ""]);
 
 	// exports
 
