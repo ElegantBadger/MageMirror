@@ -2,9 +2,10 @@
 @import 'fonts';
 
 body {
-  padding: 0;
+  padding: 20px;
   margin: 0;
   font-family: $primary_body_font;
+  background-color: $body_background_color;
   color: $body_text_color !important;
 }
 ul {

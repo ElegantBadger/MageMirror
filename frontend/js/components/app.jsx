@@ -15,7 +15,7 @@ class App extends React.Component {
 class Home extends React.Component {
     render(){
 	return <div>
-	<h2>You are home now my sweet little manatee</h2>
+	<h2>You are home now my sweet and beautiful little manatee</h2>
 	</div>
     }
 }
