@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5f2ec13c86759e7103f8"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ecd4c916d3cd142ae439"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -30080,7 +30080,7 @@
 																_react2.default.createElement(
 																			'h2',
 																			null,
-																			'You are home now my sweet and beautiful little manatee'
+																			'Chris is my deep deep mucousy boy'
 																)
 													),
 													_react2.default.createElement(_Gallery2.default, null)
