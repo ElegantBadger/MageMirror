@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ecd4c916d3cd142ae439"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "c0111a99fd15b5cc2a2c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -35237,7 +35237,7 @@
 	         return _react2.default.createElement(
 	            'div',
 	            { className: this.uid },
-	            _react2.default.createElement('img', { style: { "min-width": "500px", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity, "-webkit-transform": "translate3D(-50%, -50%, 10px)" }, src: this.state.current_image })
+	            _react2.default.createElement('img', { style: { "width": "100%", "height": "100%", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity, "-webkit-transform": "translate3D(-50%, -50%, 10px)" }, src: this.state.current_image })
 	         );
 	      }
 	   }]);
