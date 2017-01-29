@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c0111a99fd15b5cc2a2c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "fda79f3cb8e778d4b5f1"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -35237,7 +35237,7 @@
 	         return _react2.default.createElement(
 	            'div',
 	            { className: this.uid },
-	            _react2.default.createElement('img', { style: { "width": "100%", "height": "100%", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity, "-webkit-transform": "translate3D(-50%, -50%, 10px)" }, src: this.state.current_image })
+	            _react2.default.createElement('img', { style: { "width": "100%", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity }, src: this.state.current_image })
 	         );
 	      }
 	   }]);
@@ -45558,7 +45558,7 @@
 	exports.push([module.id, "@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);", ""]);
 
 	// module
-	exports.push([module.id, "body {\n  padding: 0px !important;\n  margin: 0 !important;\n  font-family: \"Open Sans\", Arial;\n  background-color: #000;\n  color: #fff !important; }\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  font-family: \"Open Sans\", Arial;\n  color: #00b4ff; }\n\na.secondary_link {\n  color: #08121F;\n  opacity: 0.7; }\n\nh1, h2, h3, h4 {\n  font-family: \"Roboto\", Arial; }\n\n.root {\n  position: relative;\n  width: 100%;\n  height: 100%; }\n\n.overlay {\n  padding: 20px;\n  width: 100vw;\n  height: 100vh;\n  position: fixed;\n  top: 0;\n  left: 0; }\n\n.ion-navicon {\n  cursor: pointer; }\n", ""]);
+	exports.push([module.id, "body {\n  padding: 0px !important;\n  margin: 0 !important;\n  font-family: \"Open Sans\", Arial;\n  background-color: #000;\n  color: #fff !important;\n  height: 100vh;\n  width: 100vw;\n  overflow: hidden; }\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  font-family: \"Open Sans\", Arial;\n  color: #00b4ff; }\n\na.secondary_link {\n  color: #08121F;\n  opacity: 0.7; }\n\nh1, h2, h3, h4 {\n  font-family: \"Roboto\", Arial; }\n\n.root {\n  position: relative;\n  width: 100%;\n  height: 100%; }\n\n.overlay {\n  overflow: hidden;\n  padding: 20px;\n  width: 100vw;\n  height: 100vh;\n  position: fixed;\n  top: 0;\n  left: 0; }\n\n.ion-navicon {\n  cursor: pointer; }\n", ""]);
 
 	// exports
 

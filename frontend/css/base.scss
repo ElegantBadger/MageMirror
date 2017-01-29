@@ -7,6 +7,9 @@ body {
   font-family: $primary_body_font;
   background-color: $body_background_color;
   color: $body_text_color !important;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 ul {
   list-style: none;
@@ -32,6 +35,7 @@ h1, h2, h3, h4 {
   height: 100%;
 }
 .overlay {
+  overflow: hidden;
   padding: 20px;
   width: 100vw;
   height: 100vh;
