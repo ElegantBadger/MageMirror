@@ -32,7 +32,7 @@ export default class Gallery extends React.Component {
     }
     render(){
 	return <div className={this.uid}>
-	  <img style={{"width": "100%", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity}} src={this.state.current_image} />
+	  <img style={{"width": "100%", "position": "absolute", "top": "50%", "left": "50%", "opacity": this.state.opacity, "transform": "translate3D(-50%, -50%, 12px)"}} src={this.state.current_image} />
 	</div>;
     }
 }
