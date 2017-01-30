@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "df37d7a7388a13892cd5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d029b377608239e96092"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -30080,7 +30080,7 @@
 																_react2.default.createElement(
 																			'h2',
 																			null,
-																			'Chris is my deep deep mucousy boy'
+																			'Jeremy is my deep deep mucousy boy'
 																)
 													),
 													_react2.default.createElement(_Gallery2.default, null)

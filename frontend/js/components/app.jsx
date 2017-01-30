@@ -18,7 +18,7 @@ class Home extends React.Component {
 	return <div className="root">
 	<div className="overlay">
 	<marquee>Your muffins are my muffins</marquee>	
-	<h2>Chris is my deep deep mucousy boy</h2>
+	<h2>Jeremy is my deep deep mucousy boy</h2>
 	</div>
 	<Gallery />
 	</div>
